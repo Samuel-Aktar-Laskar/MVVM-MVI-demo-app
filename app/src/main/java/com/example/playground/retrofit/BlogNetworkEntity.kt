@@ -13,11 +13,11 @@ class BlogNetworkEntity(
     @SerializedName("body")
     @Expose
     var body: String,
-    @SerializedName("category")
-    @Expose
-    var category: String,
     @SerializedName("image")
     @Expose
-    var image: String
+    var image: String,
+    @SerializedName("category")
+    @Expose
+    var category: String
 ) {
 }

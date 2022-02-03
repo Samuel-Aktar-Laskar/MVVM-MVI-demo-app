@@ -62,5 +62,12 @@ dependencies {
     implementation "androidx.room:room-ktx:$room_version"
     kapt "androidx.room:room-compiler:$room_version"
 
+    def fragment_ktx = "1.2.5"
+    implementation "androidx.fragment:fragment-ktx:$fragment_ktx"
+
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0"
+
+
+
 
 }

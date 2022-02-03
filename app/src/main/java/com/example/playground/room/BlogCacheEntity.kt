@@ -18,8 +18,6 @@ class BlogCacheEntity(
     var category: String,
     @ColumnInfo(name = "image")
     var image: String,
-
-
     ){
 
 
